@@ -1,0 +1,29 @@
+{
+  "name": "interview-feedback-portal-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shobhit0731/interview-feedback-portal-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shobhit0731/interview-feedback-portal-server/issues"
+  },
+  "homepage": "https://github.com/Shobhit0731/interview-feedback-portal-server#readme",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "apollo-server-express": "^3.11.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
