@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,11 +20,22 @@
   },
   "homepage": "https://github.com/Shobhit0731/interview-feedback-portal-server#readme",
   "dependencies": {
-    "@apollo/server": "^4.3.0",
-    "apollo-server-express": "^3.11.1",
-    "express": "^4.18.2",
-    "express-graphql": "^0.12.0",
-    "graphql": "^16.6.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "apollo-datasource-rest": "^3.4.0",
+    "apollo-server": "^3.5.0",
+    "apollo-server-express": "^2.11.0",
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
+    "merge-graphql-schemas": "^1.7.6",
+    "method-override": "^3.0.0",
     "nodemon": "^2.0.20"
   }
 }

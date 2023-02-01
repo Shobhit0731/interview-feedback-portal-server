@@ -1,0 +1,55 @@
+type GetAllUsers {
+  name: String!
+  email: String!
+  password: String!
+}
+
+input User {
+  name: String!
+  email: String!
+  password: String!
+}
+
+input UserInput {
+  email: String!
+  password: String!
+}
+
+
+type LoginResponse {
+email: String!
+token: String!
+}
+
+
+type NewUser  {
+  name: String!
+  email: String!
+  _id: String!
+}
+
+type SignUpUserResponse {
+  name: String!
+  email: String!
+  new_user: NewUser!
+}
+
+
+type ResetPasswordUserResponse {
+  password: String!
+  user: ResetNewUser!
+    email: String!
+}
+
+type ResetNewUser  {
+  password: String!
+}
+
+
+input ResetInput {
+  password: String!
+  email: String!
+}
+
+
+

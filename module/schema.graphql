@@ -1,0 +1,10 @@
+type Query {
+  getAllUsers: GetAllUsers!
+}
+
+
+type Mutation {
+  loginUser(payload: UserInput): LoginResponse!
+  signUpUser(payload: User): SignUpUserResponse!
+  resetPasswordUser(payload: ResetInput): ResetPasswordUserResponse!
+}
